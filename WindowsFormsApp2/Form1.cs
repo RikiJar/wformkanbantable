@@ -16,7 +16,7 @@ namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
-        readonly OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Riki\Documents\GitHub\3002ryhma3\WindowsFormsApp2\ketterakanta.accdb");
+        readonly OleDbConnection connection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ketterakanta.accdb");
         // Connection query
         public int ProjectID { get; private set;}
         public bool WindowIsRaised { get; set; }
